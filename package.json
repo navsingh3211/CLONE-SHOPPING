@@ -1,0 +1,22 @@
+{
+  "name": "clone-shopping",
+  "version": "1.0.0",
+  "description": "//oonendoend",
+  "main": "readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:navsingh3211/CLONE-SHOPPING.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
