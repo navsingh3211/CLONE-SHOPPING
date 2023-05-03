@@ -1,5 +1,7 @@
 const app = require("./app");
 const dotenv = require("dotenv");
+const connectDatabase = require("./config/database");
+
 
 
 
@@ -7,7 +9,7 @@ const dotenv = require("dotenv");
 //Config
 dotenv.config({path:"backend/config/config.env"});
 
-
+connectDatabase();
 
 
 
