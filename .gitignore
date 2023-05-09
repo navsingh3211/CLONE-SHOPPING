@@ -9,3 +9,5 @@ node_modules/
 
 # log directory
 logs/
+
+package-lock.json
